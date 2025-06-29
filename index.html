@@ -8,7 +8,7 @@
 </head>
 <body class="bg-gradient-to-br from-gray-50 to-gray-200 text-gray-800 font-sans">
 
-  <!-- Header with hero image -->
+  <!-- Header with hero -->
   <header class="relative h-72 bg-blue-700 flex items-center justify-center text-white shadow-lg overflow-hidden">
     <img 
       src="https://images.unsplash.com/photo-1581091870627-4c4c92f3cd5a?auto=format&fit=crop&w=1200&q=80"
@@ -26,104 +26,88 @@
     <section class="bg-white rounded-xl shadow hover:shadow-2xl transition p-6">
       <h2 class="text-2xl font-bold mb-4">What is Teachable Machine?</h2>
       <p class="text-gray-700">
-        Teachable Machine is a web-based tool by Google that lets anyone train simple machine learning models without coding. 
-        It supports images, sounds, and poses to help you explore how artificial intelligence can recognize patterns.
+        Teachable Machine is a web-based tool by Google to help you build simple ML models in the browser, without code. You can train models on images, audio, or poses, test them instantly, and deploy to production. Under the hood, it uses TensorFlow.js for live model training and inference.
       </p>
-      <img 
-        src="https://storage.googleapis.com/tm-site-assets/images/tm_site_share.png"
-        alt="Teachable Machine Interface"
-        class="rounded-lg mt-4 w-full object-cover"
-      />
+      <a href="https://www.researchgate.net/figure/Screenshot-of-the-Teachable-Machine-interface-which-abstracts-away-technical_fig2_362415295" target="_blank">
+        <img 
+          src="https://www.researchgate.net/profile/Tariq-Khan-56/publication/362415295/figure/fig2/AS:1165648790540291@1665828941006/Screenshot-of-the-Teachable-Machine-interface-which-abstracts-away-technical-barriers-to.png"
+          alt="ResearchGate Teachable Machine Screenshot"
+          class="rounded-lg mt-4 w-full object-cover hover:scale-105 transition"
+        />
+      </a>
     </section>
 
-    <!-- How Teachable Machine Works -->
+    <!-- Extra Resources -->
     <section class="bg-white rounded-xl shadow hover:shadow-2xl transition p-6">
-      <h2 class="text-2xl font-bold mb-4">How It Works</h2>
-      <ul class="list-disc list-inside text-gray-700 space-y-1">
-        <li>Collect data with your webcam or uploaded files</li>
-        <li>Train a simple neural network using transfer learning in your browser</li>
-        <li>Test it live with predictions and confidence levels</li>
-        <li>Export models to web, Android, or iOS apps</li>
-      </ul>
-      <img 
-        src="https://storage.googleapis.com/tm-site-assets/images/tm_site_train.png"
-        alt="Training Teachable Machine"
-        class="rounded-lg mt-4 w-full object-cover"
-      />
+      <h2 class="text-2xl font-bold mb-4">Learn More From These Resources</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <a href="https://blog.etereo.io/an-introduction-to-teachable-machine-ai-for-dummies-61d1f97f5cf" target="_blank" class="group block rounded-lg overflow-hidden shadow hover:shadow-xl transition">
+          <img 
+            src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*kbbLj_2FfPWrL-E6QE3OBg.png"
+            alt="Etéreo Blog Preview"
+            class="object-cover w-full h-48 group-hover:scale-105 transition"
+          />
+          <div class="p-4 bg-white text-gray-800">
+            <h3 class="text-xl font-semibold">Introduction to Teachable Machine (Etéreo)</h3>
+          </div>
+        </a>
+        <a href="https://www.geeksforgeeks.org/machine-learning/machine-learning-model-with-teachable-machine/" target="_blank" class="group block rounded-lg overflow-hidden shadow hover:shadow-xl transition">
+          <img 
+            src="https://media.geeksforgeeks.org/wp-content/uploads/20230814140924/ML-model-using-Teachable-Machine.png"
+            alt="GeeksForGeeks Preview"
+            class="object-cover w-full h-48 group-hover:scale-105 transition"
+          />
+          <div class="p-4 bg-white text-gray-800">
+            <h3 class="text-xl font-semibold">Build a Model with Teachable Machine (GeeksForGeeks)</h3>
+          </div>
+        </a>
+        <a href="https://medium.com/@meqdad.dev/building-simple-and-customizable-image-classifier-with-teachable-machine-and-python-30d50169d638" target="_blank" class="group block rounded-lg overflow-hidden shadow hover:shadow-xl transition">
+          <img 
+            src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*m-0xO2EC5d1jU6AZ7zAlIA.png"
+            alt="Medium Classifier Example"
+            class="object-cover w-full h-48 group-hover:scale-105 transition"
+          />
+          <div class="p-4 bg-white text-gray-800">
+            <h3 class="text-xl font-semibold">Custom Classifier with Python (Medium)</h3>
+          </div>
+        </a>
+        <a href="https://medium.com/swlh/democratizing-ml-rise-of-the-teachable-machines-20dad067abae" target="_blank" class="group block rounded-lg overflow-hidden shadow hover:shadow-xl transition">
+          <img 
+            src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*4zGwxWJqPtwE7vUAmuQeDA.png"
+            alt="Democratizing ML"
+            class="object-cover w-full h-48 group-hover:scale-105 transition"
+          />
+          <div class="p-4 bg-white text-gray-800">
+            <h3 class="text-xl font-semibold">Democratizing ML (Medium)</h3>
+          </div>
+        </a>
+      </div>
     </section>
 
     <!-- Try the Model -->
     <section class="bg-white rounded-xl shadow hover:shadow-2xl transition p-6 text-center">
       <h2 class="text-2xl font-bold mb-4">Try the Model</h2>
       <p class="text-gray-700 mb-4 max-w-xl mx-auto">
-        Test our trained image classification model on Teachable Machine. Click below to open it in a new tab.
+        Test a live image classification model trained on Teachable Machine. Click below to try in a new tab.
       </p>
       <a 
         href="https://teachablemachine.withgoogle.com/models/9pPtW2k2R/"
         target="_blank"
         class="px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition transform hover:scale-105"
       >
-        Try the Model
+        Test the Model
       </a>
-      <img 
-        src="https://storage.googleapis.com/tm-site-assets/images/tm_site_predict.png"
-        alt="Teachable Machine Prediction"
-        class="rounded-lg mt-6 w-full max-w-md mx-auto object-cover"
-      />
     </section>
 
-    <!-- How to Build -->
+    <!-- Benefits -->
     <section class="bg-white rounded-xl shadow hover:shadow-2xl transition p-6">
-      <h2 class="text-2xl font-bold mb-4">How to Build Your Own</h2>
-      <div class="flex flex-col lg:flex-row gap-6">
-        <div class="flex-1 space-y-2">
-          <ol class="list-decimal list-inside text-gray-700">
-            <li>Go to <a href="https://teachablemachine.withgoogle.com/" target="_blank" class="text-blue-600 underline">Teachable Machine</a></li>
-            <li>Choose between Image, Audio, or Pose models</li>
-            <li>Collect your own data samples</li>
-            <li>Train until results are satisfactory</li>
-            <li>Test with live predictions</li>
-            <li>Export and integrate it in your apps</li>
-          </ol>
-        </div>
-        <div class="flex-1">
-          <img 
-            src="https://storage.googleapis.com/tm-site-assets/images/tm_site_export.png"
-            alt="Teachable Machine Export"
-            class="rounded-lg w-full object-cover"
-          />
-        </div>
-      </div>
-    </section>
-
-    <!-- Benefits and Tips -->
-    <section class="bg-white rounded-xl shadow hover:shadow-2xl transition p-6">
-      <h2 class="text-2xl font-bold mb-4">Benefits & Best Practices</h2>
+      <h2 class="text-2xl font-bold mb-4">Why Use Teachable Machine?</h2>
       <ul class="list-disc list-inside text-gray-700 space-y-2">
-        <li>Privacy: data stays in your browser</li>
-        <li>Fast learning: instant feedback loop</li>
-        <li>Zero-code onboarding for non-programmers</li>
-        <li>Recommended 30–50 samples per class for robust results</li>
-        <li>Use diverse examples to avoid bias</li>
+        <li>Zero code needed for fast ML prototyping</li>
+        <li>Privacy-friendly: everything happens in-browser</li>
+        <li>Supports image, audio, and pose recognition</li>
+        <li>One-click export to web, Android, or iOS</li>
       </ul>
-      <img 
-        src="https://storage.googleapis.com/tm-site-assets/images/tm_site_pose.png"
-        alt="Best Practices"
-        class="rounded-lg mt-4 w-full object-cover"
-      />
-    </section>
-
-    <!-- Simple JS Example -->
-    <section class="bg-white rounded-xl shadow hover:shadow-2xl transition p-6">
-      <h2 class="text-2xl font-bold mb-4">Code Example</h2>
-      <p class="text-gray-700 mb-2">You can load your exported TensorFlow.js model like this:</p>
-      <pre class="bg-gray-100 text-gray-800 rounded p-4 overflow-x-auto">
-<code>
-const model = await tmImage.load("model.json", "metadata.json");
-const prediction = await model.predict(webcamElement);
-console.log(prediction);
-</code>
-      </pre>
     </section>
   </main>
 
