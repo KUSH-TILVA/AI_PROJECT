@@ -11,7 +11,7 @@
   <!-- Header with hero image -->
   <header class="relative h-72 bg-blue-700 flex items-center justify-center text-white shadow-lg overflow-hidden">
     <img 
-      src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?auto=format&fit=crop&w=1200&q=80"
+      src="https://images.unsplash.com/photo-1581091870627-4c4c92f3cd5a?auto=format&fit=crop&w=1200&q=80"
       alt="AI Concept"
       class="absolute inset-0 w-full h-full object-cover opacity-30"
     />
@@ -26,14 +26,11 @@
     <section class="bg-white rounded-xl shadow hover:shadow-2xl transition p-6">
       <h2 class="text-2xl font-bold mb-4">What is Teachable Machine?</h2>
       <p class="text-gray-700">
-        Teachable Machine is a web-based tool by Google that allows anyone to create simple machine learning models without writing a single line of code.
-        It supports training models for <strong>image classification, sound recognition, and pose detection</strong> directly in your browser, using your webcam or uploaded data.
-      </p>
-      <p class="text-gray-700 mt-2">
-        Under the hood, it uses <em>TensorFlow.js</em> to handle the training and testing of models live on your device. This means your data stays private and models can be tested instantly, providing a smooth learning experience for beginners to understand AI concepts like data bias, overfitting, and classification pipelines.
+        Teachable Machine is a web-based tool by Google that lets anyone train simple machine learning models without coding. 
+        It supports images, sounds, and poses to help you explore how artificial intelligence can recognize patterns.
       </p>
       <img 
-        src="https://storage.googleapis.com/tm-models/images/teachable-machine.png"
+        src="https://storage.googleapis.com/tm-site-assets/images/tm_site_share.png"
         alt="Teachable Machine Interface"
         class="rounded-lg mt-4 w-full object-cover"
       />
@@ -41,25 +38,25 @@
 
     <!-- How Teachable Machine Works -->
     <section class="bg-white rounded-xl shadow hover:shadow-2xl transition p-6">
-      <h2 class="text-2xl font-bold mb-4">How Teachable Machine Works</h2>
+      <h2 class="text-2xl font-bold mb-4">How It Works</h2>
       <ul class="list-disc list-inside text-gray-700 space-y-1">
-        <li>Collect labeled data via webcam or file uploads</li>
-        <li>Use transfer learning to fine-tune a pre-trained neural network in the browser</li>
-        <li>Test results instantly with live predictions and confidence scores</li>
-        <li>Export your trained model to web (TensorFlow.js), mobile (TensorFlow Lite), or even CoreML for iOS</li>
+        <li>Collect data with your webcam or uploaded files</li>
+        <li>Train a simple neural network using transfer learning in your browser</li>
+        <li>Test it live with predictions and confidence levels</li>
+        <li>Export models to web, Android, or iOS apps</li>
       </ul>
       <img 
-        src="https://miro.medium.com/v2/resize:fit:1400/1*6vGN9Fa8fs6MzE8LtRkoIQ.png"
-        alt="Training Example"
+        src="https://storage.googleapis.com/tm-site-assets/images/tm_site_train.png"
+        alt="Training Teachable Machine"
         class="rounded-lg mt-4 w-full object-cover"
       />
     </section>
 
     <!-- Try the Model -->
-    <section class="bg-white rounded-xl shadow hover:shadow-2xl transition p-6 flex flex-col items-center text-center">
+    <section class="bg-white rounded-xl shadow hover:shadow-2xl transition p-6 text-center">
       <h2 class="text-2xl font-bold mb-4">Try the Model</h2>
-      <p class="text-gray-700 mb-4 max-w-xl">
-        Test a live image classification model trained with Teachable Machine. Click below to open and experiment in a new tab.
+      <p class="text-gray-700 mb-4 max-w-xl mx-auto">
+        Test our trained image classification model on Teachable Machine. Click below to open it in a new tab.
       </p>
       <a 
         href="https://teachablemachine.withgoogle.com/models/9pPtW2k2R/"
@@ -69,30 +66,30 @@
         Try the Model
       </a>
       <img 
-        src="https://research.google/static/blog/images/2020/04/teachable-machine/teachable-machine.gif"
-        alt="Model Demo"
-        class="rounded-lg mt-6 w-full max-w-md object-cover"
+        src="https://storage.googleapis.com/tm-site-assets/images/tm_site_predict.png"
+        alt="Teachable Machine Prediction"
+        class="rounded-lg mt-6 w-full max-w-md mx-auto object-cover"
       />
     </section>
 
-    <!-- How to Build Your Own -->
+    <!-- How to Build -->
     <section class="bg-white rounded-xl shadow hover:shadow-2xl transition p-6">
       <h2 class="text-2xl font-bold mb-4">How to Build Your Own</h2>
       <div class="flex flex-col lg:flex-row gap-6">
         <div class="flex-1 space-y-2">
           <ol class="list-decimal list-inside text-gray-700">
             <li>Go to <a href="https://teachablemachine.withgoogle.com/" target="_blank" class="text-blue-600 underline">Teachable Machine</a></li>
-            <li>Choose your project type: Image, Audio, or Pose</li>
-            <li>Capture or upload data for at least 2 classes</li>
-            <li>Train your model until accuracy is acceptable</li>
-            <li>Test and improve using live predictions</li>
-            <li>Export your model to integrate with your projects</li>
+            <li>Choose between Image, Audio, or Pose models</li>
+            <li>Collect your own data samples</li>
+            <li>Train until results are satisfactory</li>
+            <li>Test with live predictions</li>
+            <li>Export and integrate it in your apps</li>
           </ol>
         </div>
         <div class="flex-1">
           <img 
-            src="https://storage.googleapis.com/tm-models/images/teachable-machine-classes.png"
-            alt="Building Classes"
+            src="https://storage.googleapis.com/tm-site-assets/images/tm_site_export.png"
+            alt="Teachable Machine Export"
             class="rounded-lg w-full object-cover"
           />
         </div>
@@ -103,15 +100,14 @@
     <section class="bg-white rounded-xl shadow hover:shadow-2xl transition p-6">
       <h2 class="text-2xl font-bold mb-4">Benefits & Best Practices</h2>
       <ul class="list-disc list-inside text-gray-700 space-y-2">
-        <li>Perfect for beginners and non-coders</li>
-        <li>Data is handled privately in your browser</li>
-        <li>Export to multiple platforms: web, Android, iOS</li>
-        <li>Collect balanced datasets to avoid bias</li>
-        <li>Use at least 30–50 samples per class for robust results</li>
-        <li>Explore data augmentation techniques to improve performance</li>
+        <li>Privacy: data stays in your browser</li>
+        <li>Fast learning: instant feedback loop</li>
+        <li>Zero-code onboarding for non-programmers</li>
+        <li>Recommended 30–50 samples per class for robust results</li>
+        <li>Use diverse examples to avoid bias</li>
       </ul>
       <img 
-        src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*j2-xFzH6_6H9OHDHQlAvbw.png"
+        src="https://storage.googleapis.com/tm-site-assets/images/tm_site_pose.png"
         alt="Best Practices"
         class="rounded-lg mt-4 w-full object-cover"
       />
@@ -119,13 +115,11 @@
 
     <!-- Simple JS Example -->
     <section class="bg-white rounded-xl shadow hover:shadow-2xl transition p-6">
-      <h2 class="text-2xl font-bold mb-4">Using Your Exported Model</h2>
-      <p class="text-gray-700 mb-2">If you want to use your exported TensorFlow.js model in your own webpage, here’s a minimal code snippet:</p>
+      <h2 class="text-2xl font-bold mb-4">Code Example</h2>
+      <p class="text-gray-700 mb-2">You can load your exported TensorFlow.js model like this:</p>
       <pre class="bg-gray-100 text-gray-800 rounded p-4 overflow-x-auto">
 <code>
-const modelURL = "model.json";
-const metadataURL = "metadata.json";
-const model = await tmImage.load(modelURL, metadataURL);
+const model = await tmImage.load("model.json", "metadata.json");
 const prediction = await model.predict(webcamElement);
 console.log(prediction);
 </code>
